@@ -1,3 +1,7 @@
+//NOT EFFICIENT
+//NOT EFFICIENT
+//NOT EFFICIENT
+//NOT EFFICIENT
 //arrays need to be sorted because two pointers can work O(nlogn)
 var twoSum = function(nums, target) {
     nums.sort((a, b) => (a - b))
