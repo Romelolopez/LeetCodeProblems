@@ -28,7 +28,7 @@ var isPalindrome = function(x) {
     }
 
     //return true
-    console.log(isPal)    
+    console.log(isPal)     
 };
 
 isPalindrome(12)
