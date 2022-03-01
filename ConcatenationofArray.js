@@ -22,3 +22,6 @@ var getConcatenation = function(nums) {
 };
 
 getConcatenation([1,2,3,4])
+
+//Popular answer
+//const getConcatenation = nums => [...nums, ...nums]
