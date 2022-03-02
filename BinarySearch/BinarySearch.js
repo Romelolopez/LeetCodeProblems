@@ -16,14 +16,14 @@ var search = function(nums, target) {
         //pointers
         var l = 0, r = nums.length - 1, mid
 
-        //loop while mid not equal to the target
-        while (nums[mid] !== target) {
+        //loop unitl the left pointer and right pointer cross 
+        while (l <= r) {
             
             //assign middle point before we compare its value to the target 
             //we assign it in the beginning of loop because l and r, are changing at the end of every loop 
             mid = Math.floor((l + r) / 2);
             
-
+            //end loop if middle pointer value == target
             if(nums[mid] == target){
                 //return mid;
                 console.log("found a match for: " + nums[mid] + " at index " + mid)
