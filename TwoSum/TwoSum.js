@@ -30,4 +30,4 @@ var twoSum = function (nums, target) {
     console.log(arr)
 };
 
-twoSum([-2,-7,-11,-15], -9)
+twoSum([2,7,11,15], 9)
