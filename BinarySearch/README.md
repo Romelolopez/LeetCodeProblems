@@ -5,5 +5,5 @@
   <p>Start of the first loop we assign the middle pointer</p>
   <p>Middle of the first loop, the left pointer gets changed because of an if statment</p>
   <p>Start of the second loop, middle pointer gets changed because the left previously got changed</p>
-  <p>Middle of second loop, if statement finds the value of the middle pointer and target to be equal</p>
+  <p>Middle of the second loop, an if statement finds the value of the middle pointer and target to be equal</p>
 </div>
