@@ -21,8 +21,8 @@ var solution = function(isBadVersion) {
             let mid = Math.floor((l+r)/2)
             let version = isBadVersion(mid);
             
-            //check version if the version front of the middle version is not the same (true). 
-            //This works because we know version build off each other 
+            //check if the version front of the middle version is not the same (true). 
+            //This works because we know each version builds off each other. if mid is false and the next is true we found the bad version
             if(version !== isBadVersion(mid+1)){
                 return mid+1
             //if the version in front is also false move left pointer and check everything in the second half
